@@ -1,0 +1,31 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+				<ul class="list-inline quicklinks">
+                   <li> <span >Website Visited on --{{ "now" | date: "%d-%m-%Y " }}</span></li>
+					<li><span>at--{{ "now" | date: "%H:%M" }}.</span></li>
+					</ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+						<li><a href="https://www.quora.com/profile/Priya-Gupta-156"><i class="fa fa-quora" aria-hidden="true"></i></a>
+						
+                    </ul>
+                </div>
+				
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>&copy Priya Gupta
+                        </li>
+                        <li>Made With Jekyll</li><span class="love">❤</span>
+                        
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </footer>

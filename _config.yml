@@ -1,0 +1,27 @@
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Priya Gupta
+email: priyagupta.ynr@gmail.com
+description: know me more. Dig in
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/priya_ynr
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100006801556507
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/story/7939481
+  - title: header 
+    url: https://www.hackerrank.com/priyagupta96
+  - title: github
+    url: https://github.com/satnam18
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 71-d professor colony,yamina nagar, haryana
+  
+
