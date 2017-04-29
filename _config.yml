@@ -24,4 +24,11 @@ social:
 address:
   - line: 71-d professor colony,yamina nagar, haryana
   
+  # Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+  
 
