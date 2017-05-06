@@ -1,7 +1,7 @@
  
 <head>
 	<script language="JavaScript">
-function mdy(todaysdate) {
+function mdy() {
 //calls the function mdy why to get our date
 var datetime = "Last Visited: " + new Date().today() + " @ " + new Date().timeNow();
 	return datetime;
@@ -14,8 +14,8 @@ var datetime = "Last Visited: " + new Date().today() + " @ " + new Date().timeNo
                 <div class="col-md-4">
 				<ul class="list-inline quicklinks">
                    <li> <span><script language="JavaScript">
-sampleDate1=new Date()
-document.write ("Today's date is "+ mdy(sampleDate1))
+
+document.write ("Today's date is "+ mdy())
 </script></span></li>
 					<li><span>at--{{ "now" | date: "%H:%M" }}.</span></li>
 					</ul>
