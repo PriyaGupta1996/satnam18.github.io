@@ -1,9 +1,21 @@
-  <footer>
+ 
+<head>
+	<script language="JavaScript">
+function mdy(todaysdate) {
+//calls the function mdy why to get our date
+return todaysdate.getMonth()+1+"/"+todaysdate.getDate()+"/"+todaysdate.getYear()
+}
+	</script>
+</head>
+<footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
 				<ul class="list-inline quicklinks">
-                   <li> <span >Website Visited on --{{ "now" | date: "%d-%m-%Y " }}</span></li>
+                   <li> <span><script language="JavaScript">
+sampleDate1=new Date()
+document.write ("Today's date is "+ mdy(sampleDate1))
+</script></span></li>
 					<li><span>at--{{ "now" | date: "%H:%M" }}.</span></li>
 					</ul>
                 </div>
